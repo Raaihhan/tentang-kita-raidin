@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">💚 Our Story</div>
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About Us</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="letter.html">Letter</a>
+    </nav>
+  </header>
+
+  <main class="container page-content fade-in">
+  <h1>Cerita Kita</h1>
+
+  <div class="card">
+    <p>
+      Semua berawal dari pertemuan yang mungkin terlihat biasa,
+      tapi ternyata membawa cerita yang sangat berarti.
+    </p>
+  </div>
+
+  <!-- FOTO SECTION -->
+  <section class="media-section">
+  <h2>Foto Kita 📸</h2>
+
+  <div class="photo-grid">
+
+    <div class="photo-item">
+      <img src="assets/images/foto1.jpg" alt="Foto 1">
+      <p>Hari pertama kita jalan bareng 🤍</p>
+    </div>
+
+    <div class="photo-item">
+      <img src="assets/images/foto2.jpg" alt="Foto 2">
+      <p>Moment random tapi jadi favorit aku</p>
+    </div>
+
+    <div class="photo-item">
+      <img src="assets/images/foto3.jpg" alt="Foto 3">
+      <p>Foto ini selalu bikin aku senyum</p>
+    </div>
+
+    <div class="photo-item">
+      <img src="assets/images/foto4.jpg" alt="Foto 4">
+      <p>Hari yang ga akan aku lupain</p>
+    </div>
+
+  </div>
+</section>
+
+  <!-- VIDEO SECTION -->
+  <section class="media-section">
+    <h2>Video Kita 🎥</h2>
+
+    <div class="video-grid">
+
+      <!-- VIDEO LOKAL -->
+      <video controls>
+        <source src="assets/videos/video1.mp4" type="video/mp4">
+      </video>
+
+      <!-- YOUTUBE EMBED -->
+      <iframe 
+        src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+
+    </div>
+  </section>
+
+</main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
